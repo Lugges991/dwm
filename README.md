@@ -6,6 +6,8 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 ## Requirements
 ------------
 In order to build dwm you need the Xlib header files.
+Furthermore "DeJa Vu Sans Mono Nerd Font" is required, which can be changed though.
+To launch a terminal with the default configuration, the suckless st terminal is required.
 
 
 ## Installation
@@ -47,6 +49,12 @@ like this in your .xinitrc:
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
 
+
+## Features
+-------------
+* Stacked tiling
+* Centered master tiling
+* Floating mode
 
 ## Keyboard Shortcuts
 -------------
