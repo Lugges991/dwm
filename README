@@ -1,14 +1,14 @@
-dwm - dynamic window manager
+# lugges' dwm - lugges' build of the suckless dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 
-Requirements
+## Requirements
 ------------
 In order to build dwm you need the Xlib header files.
 
 
-Installation
+## Installation
 ------------
 Edit config.mk to match your local setup (dwm is installed into
 the /usr/local namespace by default).
@@ -19,7 +19,7 @@ necessary as root):
     make clean install
 
 
-Running dwm
+## Running dwm
 -----------
 Add the following line to your .xinitrc to start dwm using startx:
 
@@ -42,7 +42,49 @@ like this in your .xinitrc:
     exec dwm
 
 
-Configuration
+## Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+
+## Keyboard Shortcuts
+-------------
+The following keyboard shortcuts are used to operate dwm:
+
+| Shortcut                  | Function                  |
+|---------------------------|---------------------------|
+| Alt + j                   | Increase focus            |
+| Alt + k                   | Decrease focus            |
+| Alt + Return              | Change focus              |
+| Alt + Shift + Return      | Spawn terminal            |
+| Alt + p                   | launch dmenu_run          |
+| Alt + Tab                 | Cycle Workspace           |
+| Alt + q                   | Kill current window       |
+| Alt + t                   | tiling mode               |
+| Alt + f                   | floating mode             |
+| Alt + m                   | monocle mode              |
+| Alt + u                   | centered master           |
+| Alt + o                   | centered floating master  |
+| Alt + ,                   | cycle layout increasing   |
+| Alt + ,                   | cycle layout decreasing   |
+| Alt + Space               | set previous layout       |
+| Alt + Shift + Space       | set previous layout       |
+| Alt + [1..9]              | switch to workspace [1..9]|
+| Alt + 0                   | view all workspaces       |
+| Alt + Shift + 0           | tag all workspaces        |
+| Alt + ,                   | switch monitor            |
+| Alt + .                   | switch monitor            |
+| Alt + Shift + ,           | tag monitor               |
+| Alt + Shift + .           | tag monitor               |
+| Alt + F5                  | refresh x-colors          |
+| Alt + Shift + q           | Exit dwm                  |
+| Alt + +                   | Increase all gaps         |
+| Alt + -                   | Decrease all gaps         |
+| Alt + Super + +           | Increase outer gaps       |
+| Alt + Super + -           | Decrease outer gaps       |
+| Alt + Shift + +           | Increase inner gaps       |
+| Alt + Shift + -           | Decrease inner gaps       |
+| Alt + Super + 0           | toggle gaps               |
+| Alt + Super + Shift       | reset gaps                |
+*** Work in Progress ***
