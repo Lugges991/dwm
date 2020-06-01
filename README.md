@@ -1,17 +1,17 @@
 # lugges' dwm - lugges' build of the suckless dwm - dynamic window manager
-============================
+----------------------------
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 
 ## Requirements
-------------
+______
 In order to build dwm you need the Xlib header files.
 Furthermore "DeJa Vu Sans Mono Nerd Font" is required, which can be changed though.
 To launch a terminal with the default configuration, the suckless st terminal is required.
 
 
 ## Installation
-------------
+______
 Edit config.mk to match your local setup (dwm is installed into
 the /usr/local namespace by default).
 
@@ -22,7 +22,7 @@ necessary as root):
 
 
 ## Running dwm
------------
+______
 Add the following line to your .xinitrc to start dwm using startx:
 
     exec dwm
@@ -45,19 +45,19 @@ like this in your .xinitrc:
 
 
 ## Configuration
--------------
+______
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
 
 
 ## Features
--------------
+______
 * Stacked tiling
 * Centered master tiling
 * Floating mode
 
 ## Keyboard Shortcuts
--------------
+______
 The following keyboard shortcuts are used to operate dwm:
 
 | Shortcut                  | Function                  |
